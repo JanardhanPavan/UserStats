@@ -38,11 +38,12 @@ Plaintext
 │   ├── .env            # Secure configuration (Port, Mongo_URI)
 │   └── Server.js       # Express Application Entry Point
 └── /frontend
-    ├── /src
-    │   ├── /components # Reusable UI components (Navbar)
-    │   ├── /pages      # Level 1 Core Views (Home, Events, Feedback)
-    │   └── App.jsx     # Client-side routing logic
-    └── tailwind.config.js
+├── /src
+│   ├── /components # Reusable UI components (Navbar)
+│   ├── /pages      # Level 1 Core Views (Home, Events, Feedback)
+│   └── App.jsx     # Client-side routing logic
+└── tailwind.config.js
+    
 🚀 Development Milestones
 Level 1-2: Foundation & API Setup
 Built a professional 3-page frontend (Home, Events, Feedback).
